@@ -20,20 +20,20 @@
                         <section class="mb-8">
                             <h5 class="uppercase font-bold mb-4">The Brand</h5>
                             <ul>
-                                <li class="text-sm pb-4"><router-link class="text-black leading-loose" to="/">Logo</router-link></li>
-                                <li class="text-sm pb-4"><router-link class="text-black leading-loose" to="/about">Logo Symbol</router-link></li>
-                                <li class="text-sm pb-4"><router-link class="text-black leading-loose" to="/about">Colors</router-link></li>
-                                <li class="text-sm pb-4"><router-link class="text-black leading-loose" to="/about">Typography</router-link></li>
+                                <li class="text-sm pb-4"><router-link class="text-black leading-loose" to="/" exact>Logo</router-link></li>
+                                <li class="text-sm pb-4"><router-link class="text-black leading-loose" to="/logo-symbol">Logo Symbol</router-link></li>
+                                <li class="text-sm pb-4"><router-link class="text-black leading-loose" to="/colors">Colors</router-link></li>
+                                <li class="text-sm pb-4"><router-link class="text-black leading-loose" to="/typography">Typography</router-link></li>
                             </ul>
                         </section>
 
                         <section class="mb-8">
                             <h5 class="uppercase font-bold mb-4">Doodles</h5>
                             <ul>
-                                <li class="text-sm pb-4"><router-link class="text-black leading-loose" to="/">Mascot</router-link></li>
-                                <li class="text-sm pb-4"><router-link class="text-black leading-loose" to="/about">Illustrations</router-link></li>
-                                <li class="text-sm pb-4"><router-link class="text-black leading-loose" to="/about">Loaders and Animations</router-link></li>
-                                <li class="text-sm pb-4"><router-link class="text-black leading-loose" to="/about">Wallpapers</router-link></li>
+                                <li class="text-sm pb-4"><router-link class="text-black leading-loose" to="/mascot">Mascot</router-link></li>
+                                <li class="text-sm pb-4"><router-link class="text-black leading-loose" to="/illustrations">Illustrations</router-link></li>
+                                <li class="text-sm pb-4"><router-link class="text-black leading-loose" to="/loaders-and-animations">Loaders and Animations</router-link></li>
+                                <li class="text-sm pb-4"><router-link class="text-black leading-loose" to="/wallpapers">Wallpapers</router-link></li>
                             </ul>
                         </section>
                     </aside>
