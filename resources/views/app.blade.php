@@ -10,15 +10,15 @@
     </head>
     <body class="font-sans">
         <div id="app">
-            <div class="container mx-auto">
-                <header class="py-6">
-                    <h1>Laracasts</h1>
-                </header>
+            <header class="py-6 px-8 mb-8">
+                <h1>Laracasts</h1>
+            </header>
+            <div class="container px-8">
 
                 <main class="flex">
-                    <aside class="w-1/4">
-                        <section class="mb-8">
-                            <h5 class="uppercase font-bold mb-4">The Brand</h5>
+                    <aside class="w-1/5 pt-8">
+                        <section class="mb-10">
+                            <h5 class="uppercase font-bold mb-5 text-base">The Brand</h5>
                             <ul>
                                 <li class="text-sm pb-4"><router-link class="text-black leading-loose" to="/" exact>Logo</router-link></li>
                                 <li class="text-sm pb-4"><router-link class="text-black leading-loose" to="/logo-symbol">Logo Symbol</router-link></li>
@@ -28,7 +28,7 @@
                         </section>
 
                         <section class="mb-8">
-                            <h5 class="uppercase font-bold mb-4">Doodles</h5>
+                            <h5 class="uppercase font-bold mb-5 text-base">Doodles</h5>
                             <ul>
                                 <li class="text-sm pb-4"><router-link class="text-black leading-loose" to="/mascot">Mascot</router-link></li>
                                 <li class="text-sm pb-4"><router-link class="text-black leading-loose" to="/illustrations">Illustrations</router-link></li>
