@@ -17,7 +17,7 @@
 
                 <main class="flex">
                     <aside class="w-1/5 pt-8">
-                        <section class="mb-10">
+                        <div class="mb-10">
                             <h5 class="uppercase font-bold mb-5 text-base">The Brand</h5>
                             <ul>
                                 <li class="text-sm pb-4"><router-link class="text-black leading-loose" to="/" exact>Logo</router-link></li>
@@ -25,9 +25,9 @@
                                 <li class="text-sm pb-4"><router-link class="text-black leading-loose" to="/colors">Colors</router-link></li>
                                 <li class="text-sm pb-4"><router-link class="text-black leading-loose" to="/typography">Typography</router-link></li>
                             </ul>
-                        </section>
+                        </div>
 
-                        <section class="mb-8">
+                        <div class="mb-10">
                             <h5 class="uppercase font-bold mb-5 text-base">Doodles</h5>
                             <ul>
                                 <li class="text-sm pb-4"><router-link class="text-black leading-loose" to="/mascot">Mascot</router-link></li>
@@ -35,7 +35,14 @@
                                 <li class="text-sm pb-4"><router-link class="text-black leading-loose" to="/loaders-and-animations">Loaders and Animations</router-link></li>
                                 <li class="text-sm pb-4"><router-link class="text-black leading-loose" to="/wallpapers">Wallpapers</router-link></li>
                             </ul>
-                        </section>
+                        </div>
+
+                        <div>
+                            <h5 class="uppercase font-bold mb-5 text-base">Stats</h5>
+                            <ul>
+                                <li class="text-sm pb-4"><router-link class="text-black leading-loose" to="/site-stats">Site Stats</router-link></li>
+                            </ul>
+                        </div>
                     </aside>
 
                     <div class="primary flex-1">

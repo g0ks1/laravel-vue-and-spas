@@ -6,6 +6,7 @@ import Mascot from './components/Mascot';
 import Illustrations from './components/Illustrations';
 import Wallpapers from './components/Wallpapers';
 import NotFound from './components/NotFound';
+import SiteStats from './components/SiteStats';
 // import LoadersAndAnimations from './components/LoadersAndAnimations';
 
 let LoadersAndAnimations = () => import(/* webpackChunkName: "loaders" */ './components/LoadersAndAnimations');
@@ -51,6 +52,10 @@ export default {
         {
             path: '/wallpapers',
             component: Wallpapers
+        },
+        {
+            path: '/site-stats',
+            component: SiteStats
         }
     ]
 };
